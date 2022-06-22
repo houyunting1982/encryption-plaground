@@ -4,7 +4,6 @@ import * as jose from "jose";
 import { useEffect, useState } from "react";
 import {
     Button,
-    Checkbox,
     FormControlLabel,
     Grid,
     Paper,
@@ -37,16 +36,11 @@ const CreditCard = () => {
     useEffect(() => {
         api.getPrimaryKey().then((key) => setPrimaryKey(key.data));
         api.getSecondaryKey().then((key) => setSecondaryKey(key.data));
-    }, []);
+    }, [api]);
 
-    const {
-        values,
-        setValues,
-        errors,
-        setErrors,
-        handleInputChange,
-        handleNumberChange,
-    } = useForm(getFreshCreditCardModel);
+    const { values, handleInputChange, handleNumberChange } = useForm(
+        getFreshCreditCardModel
+    );
 
     const handlerRadioChange = (e) => {
         setSelectedKey(e.target.value);
@@ -186,7 +180,7 @@ const CreditCard = () => {
                 <Typography variant='h5'>Decrypted Data:</Typography>
 
                 {Object.keys(decryptedData).map((key) => (
-                    <Typography variant='body2' gutterBottom>
+                    <Typography variant='body2' gutterBottom key={key}>
                         {`[${key}] : ${decryptedData[key]}`}
                     </Typography>
                 ))}
