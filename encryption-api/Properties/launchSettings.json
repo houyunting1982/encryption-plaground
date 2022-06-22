@@ -1,0 +1,31 @@
+﻿{
+    "$schema": "https://json.schemastore.org/launchsettings.json",
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "http://localhost:52177",
+            "sslPort": 44307
+        }
+    },
+    "profiles": {
+        "encryption_api": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchUrl": "swagger",
+            "applicationUrl": "https://localhost:7261;http://localhost:5169",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_PRIMARY__KEY": "-----BEGIN RSA PRIVATE KEY-----MIIEowIBAAKCAQEAzNPnkPXf+mVj7ij5aAslehRW9S8X6VZj4qAGHHzWEah/IMwfNQIiBY+y4aRBYbRmbv/70jBNCVjAAKoe1pLwLY2yPl2MVXi4IoAfMY6fb1Wa6zm3IQFBExWtufkmw96vBhjjQFEiY7s6WMvPgFORRNkpISAzHVqaAQPCrldeLw32dZhJq5JQUztI9+uyq6rd41e68OHCIYs3E4oLzjvIgU4pinURDlhjxhwPv3+Xwf6Lm0svK/VoITynmXyV4x1+0ZzdQUYg1XhCvjPyUbRcoNAtxgLlxB+VmouOjKpwUN7nu1ktCT/hEjIGifTulfPcdrEDe2oSrT3hZybS6lABHwIDAQABAoIBAG4Q/OG/zmEOtNlY+VT4kGX+og/VA6NmwfwZA8+xIZORmOb16Vshz0hvxK9OBbhMKbNCKX70Z6E7KMnyoOmrQhcoinzK5ktTuJcJhDmsK263cK0wcYDx3Jc10goaocMlWaYMH6oDL1iqVps6wkFyJqD5lQlw9Saz9gfPjoEC/+CGSQaKjHIbmBY6U+ZRdSQyxSFED4R7KOGQ+UJLhsXPR9+179Gk2BZmkhZd6HZ3p3fssrWbqAKBqwrnnRmeCD+sRLZNR0bj/eSDKQqUMrtnF8BbogeerErb3oS2ClmHuMQLslJzck7tNgizQZxcI2SIMRc/i3kn7jLPk/pIfxFhjKECgYEA7R56C2Jfe7blKRtZA9cx773U7hEIRtPOZQg6sV8qopWZC5Wrgq2fwpL0Hq3FOoTxEPoAvvn+A9sXQfdN9TT3vtmsWuWf2n2J7R4RXFFaNOamQQr/hopu5FkWHl3dccHlfcBf1EujuStDTe86rLAuFdo4DStIj4hz+CEE4jf1kE8CgYEA3SMwoJNUabJDvzhO0kqtgZDj8prf0Vnzb3UFPjvvV1+O8UhbUCxgyPDrQJHnvTeOUGLrEaSvKSgVRhrx1g9tePGx/zwR8NMi9abmqAC7P73Nh7kRMtuCUb+ehCAaFQ7z5rgTvFODEfFCjCYO96b0e7h2LhliLTkzyfWMxB2P/jECgYAjMXXNwMEJPKEQk9WHY2Yu/g7fcrm2wXMNvcXwU36hePCpLoKxN5HRsDv5XbM7N0YMTf7UWYhhDCCMkucIMN9gfTA+oXwzUpSpE+BhwlVQKrecScSZNGy3CZ3lzeqzGqM0IdxXRw66yfgIVixwOwnsBmJxWe5AF3GW71epN8MDswKBgQCmp1SITz/4f/4KZ/cPCHSGBpmjRhCTB4UsZDZVVnnjkQJ62Bro6ujtxpKkkNDiirHX5xRcsY3IKIsP0FKdDfdkhFGulqi2o4ffNa7ywcpcGUCBnnlVqJQn448k58SARkqNgABvl0haB0YttKjm/o2Vh8iYqUyR5GAhPcqeKeFQoQKBgBUTTqJlmnBBYBxPs9vRhZgTkiytKdVEF9EgfjnWnGoe7+b6ISWJuYSSfSiKk4+XTMFo3Z43IzEw+wvQDwKo2TriL/vjEIYb7mCMOaXGWEWY/j6Qi/V1qVu6jhbb1sTsDtxK+P/kStz1HbvEvWyVuMetJjrwm2gnLGIwISoVAmKl-----END RSA PRIVATE KEY-----",
+                "ASPNETCORE_SECONDARY__KEY": "-----BEGIN RSA PRIVATE KEY-----MIIEowIBAAKCAQEA02bTyIuKsGbj98+ZFiFv9hy28SmPOJutFeUXtdD+cSEiF/SYng5wriyEgMHdi7x+s9Oow+vPg7fb/Ry7GjkaZbRlWF9DL4xWwhj1Jkb52p1pyDCzd2PrtF0ZzHxErIWdJRm/m0mdw5dRu4eRQSrwwlLallHoCc+hoWPD+UN3gZ/YVj32FTareX2PMOf+et2Zk5Bce9wUrx70XazvTEnjFIHY2FkGqPXroPso6+jRJOazaxhCOSx4TX+UUk9592nmqabi5dg4Xu3HvCyoC56sWnS4sxrQX8iz8bEKZd+PX3ttcWnJ5nW7wRQl1xla88nSYCWuytk8tRYK0l20E68sFQIDAQABAoIBABkTk3+wfc0bB2O37nLfmIZbNaA5y9FtNgTo3f0lQ2lsAr1QuGHXWKpwgW88j+kpfOYb72L+L+lx/9hwdglQSL9TvMnU0wVq4ke36iyWMsEp9whWLpO0+Jq2iH7nJsZIOzHRchcbjmlLI9jY5fQTAegrJ9647IttY8DfMrn4tM5dTnkHFokduw6QiXamR19vpRI8iwRplJ5qXRLpSrMjPTosPVvQuRd3x8EfBfLU20AMoFlUhiSJ8YA0A7VDGiJQR/DFv/fQ5F42NHhHRC/04BUpZKM4kAeVm3Wsqd5fi3MZoOut6m8q7Un/AFXIT3IvNmu8idnpgWBEnm0OqgvXrOkCgYEA7nEnfUUr6lBnz/CaoCa2ZTxzuXX/5isokVeMe2nduEBE5aCTJIxT7UixjA5L4hh6w9HkpuVcemUtA7zfr31pN1cHHMhIxS1DRaEu3ZUjUtG/wNRPHeKt3/8kKbFEyMisHQF3fLzezFDU5xZOAR9q5Y3MWTPI9DOLyzRwDaXHCBMCgYEA4vfwOKhim1jIB9s2+aMm/Xt6xrAXBu70GTfW5jRKCh2f0nu9By9f1EvQdb/RSk0qp64d0wKrXz6dphP+dvwQSRKNTvzuWVcfMNFNVciTMKIldvYBRDu3m4dTQ8qfEACcu4yiV8vTP6BQ0amGOQPEypvZxqhn95IjFofUQejP0DcCgYBM6rmXYnnxIzDp1i67HOHXtHGMUTFUeXWjtP8/TH5WknznKi5tKstkDwAfMvltnQH1Kz88S17SqNKlkwcBYE5RqMRFl6JJ4PkDfCRXHGYBsGHP/WzsMhRu3qo2vNV4g6tpy/BUj8S7WhPj28EcAZuFI4HZAKiBhiNBUNAYxvJ2ewKBgElCwpVnNLz0AU0X4zzc/t7fFpg/io9AXiYtsf4IbsWpHkdwjWleT05VUmpPihyzn8sUFqhfujU6HuTWm1KItjD//gC6/6xyxKybQp0n6urNy84ERhBiPjfDjIrbQlCGAhE/qb8xGXT2KGAkmiCZKNJFUBwhi72LvCuvmEHWBg4tAoGBAMGm3MPsWjvOLqSnaucB3mauHd6jlPunWhkMHcoXLFuRzbSuT0QWFs9lUK63BFC9Zxltr2yMtLnCZ9uxajs1O4a/EiO2hzdZ8LNES9toMdXBe7myZebC/J/iLod8Px2eZC31fG/pMrhWTEW1RMkQTWruZ8Qf/zmNdx0CFiTHhsFr-----END RSA PRIVATE KEY-----"
+            }
+        },
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchUrl": "swagger",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}
